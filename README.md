@@ -1,4 +1,4 @@
-# README
+# Ubuntu's USB Bluetooth Adapter Fix (Easy Idea)
 
 Script used to fix Ubuntu's recognition problem for USB Bluetooth 5.0 adapter (Easy Idea). 
 
