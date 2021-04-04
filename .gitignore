@@ -1,0 +1,16 @@
+#
+# Project
+#
+# /*.7z
+#
+# IDEs and editors
+#
+/.idea
+/.vscode
+!.vscode/settings.json
+!.vscode/launch.json
+#
+# OS
+#
+*.DS_Store
+.directory
