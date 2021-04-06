@@ -35,7 +35,7 @@ So I created this project (script) to just copy some missing files into Ubuntu's
 # References
 
 [USB Bluetooth V5? not recognized](https://forums.linuxmint.com/viewtopic.php?t=319260)  
-[Bluetooth USB Adapter BH456A](https://www.xmpow.com/pages/download)
+[Bluetooth USB Adapter BH456A](https://www.xmpow.com/pages/download)  
 [Martin's Unix StackExchange Answer](https://unix.stackexchange.com/a/637627/465237)
 
 # License
