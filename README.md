@@ -15,7 +15,9 @@ You will get one of the following messages:
 
 # Problem Explanation
 
-This adapter doesn't get recognized by default on _Ubuntu 20.04_ because it misses a Realtek firmware file. To diagnose this problem, execute on terminal:
+This adapter doesn't get recognized by default on _Ubuntu 20.04_. Searching for a solution on the internet, I came across into this driver [Bluetooth USB Adapter BH456A](https://www.xmpow.com/pages/download). Following its documentation, I've successfully compiled and installed, but the device remained unrecognizable.
+
+After searching more, I've find out it misses a Realtek firmware file. To diagnose this problem, execute on terminal:
 
 ```shell
 lsusb
@@ -28,12 +30,13 @@ dmesg | grep -i bluetooth
 # Bluetooth: hci0: RTL: firmware file rtl_bt/rtl8761b_fw.bin not found
 ```
 
-I believe this get fixed at _Ubuntu 20.10_.
+So I created this project (script) to just copy some missing files into Ubuntu's system. I believe this get fixed at _Ubuntu 20.10_.
 
 # References
 
 [USB Bluetooth V5? not recognized](https://forums.linuxmint.com/viewtopic.php?t=319260)  
 [Bluetooth USB Adapter BH456A](https://www.xmpow.com/pages/download)
+[Martin's Unix StackExchange Answer](https://unix.stackexchange.com/a/637627/465237)
 
 # License
 
